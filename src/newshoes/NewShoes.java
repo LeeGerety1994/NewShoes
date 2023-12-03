@@ -17,8 +17,18 @@ public class NewShoes {
      */
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.println("Welcome! please design your new shoes");
-
+  
+        System.out.println("Please Select a brand: ");
+        String brand = sc.nextLine();
+        
+        System.out.println("Please Select a make: ");
+        String make = sc.nextLine();
+        
+        System.out.println("Please Select a colour: ");
+        String colour = sc.nextLine();
+        
+        System.out.println("Please Select a size: ");
+        int size = sc.nextInt();
     }
     
 }
