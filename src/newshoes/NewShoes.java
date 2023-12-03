@@ -6,7 +6,7 @@ package newshoes;
 
 /**
  *
- * @author lee_g
+ * @author lee_gerety sba19067
  */
 public class NewShoes {
 
@@ -14,7 +14,7 @@ public class NewShoes {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Welcome! please design your new shoes");
     }
     
 }
