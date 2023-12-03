@@ -4,6 +4,8 @@
  */
 package newshoes;
 
+import java.util.Scanner;
+
 /**
  *
  * @author lee_gerety sba19067
@@ -14,7 +16,9 @@ public class NewShoes {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Welcome! please design your new shoes");
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Welcome! please design your new shoes");
+
     }
     
 }
