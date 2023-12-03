@@ -22,7 +22,9 @@ public class NewShoes {
         String agreement = sc.nextLine();
         if (agreement.equals("yes")){
             System.out.println("Exciting! lets pick some shoes");
-    }
+    } else {
+            System.out.println("Fine no new shoes for your");
+        }
         
         
         
