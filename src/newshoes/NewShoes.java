@@ -29,6 +29,15 @@ public class NewShoes {
         
         System.out.println("Please Select a size: ");
         int size = sc.nextInt();
+        
+        // Output customer request back to them
+        
+        System.out.println("Here is your Shoe of Choice");
+        System.out.println("Brand Selected: " +brand);
+        System.out.println("Make Selected: " +make);
+        System.out.println("Colour Selected: " +colour);
+        System.out.println("Size Selected" +size);
+        
     }
     
 }
