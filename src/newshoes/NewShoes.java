@@ -4,6 +4,8 @@
  */
 package newshoes;
 
+import java.util.Scanner;
+
 /**
  *
  * @author lee_gerety sba19067
@@ -14,7 +16,17 @@ public class NewShoes {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Welcome! please design your new shoes");
+        Scanner sc = new Scanner (System.in);
+        // Menu page where user agrees to continue picking shoe
+        System.out.println("Please Say yes/no if you want to continue choosing your");
+        String agreement = sc.nextLine();
+        if (agreement.equals("yes")){
+            System.out.println("Exciting! lets pick some shoes");
+    }
+        
+        
+        
+        
     }
     
 }
